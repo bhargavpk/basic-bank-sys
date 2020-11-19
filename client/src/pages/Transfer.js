@@ -32,6 +32,9 @@ export default class Transfer extends Component {
                                 <TransferContent
                                 id={this.props.match.params.id}
                                 userList={this.state.userList}/>
+                                <div id="transfers-link-message">
+                                        Click <a href="/transfers" target="_blank">here</a> to view transfer history
+                                </div>
                         </div>
                 )
         }
