@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+#header-box{
+        background-color:black;
+        color:white;
+        text-align:center;
+        padding-top:50px;
+        padding-bottom:10px;
+}
+#header-box code{
+        font-size: large;
+}
+#header-box h1{
+        font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+#main-user-nav-bar{
+        text-align: center;
+}
+#user-nav-bar{
+        display:inline-block;
+        text-align: center;
+        margin: 0.5rem auto;
+}
+#user-nav-bar button{
+        background-color: black;
+        color:#f7f7f7;
+        padding: 0.25rem 1rem 0.25rem 1rem;
+        font-family: 'Montserrat' ,Arial, Helvetica, sans-serif;
+        font-size: 1.25rem;
+        font-weight: normal;
+        border: 0;
+}
+#user-nav-bar button:hover{
+        color:rgb(255, 173, 122);
+        cursor: pointer;
+}
+
+#user-list-container{
+        height:24rem;
+        width:40%;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin:auto;
+        text-align: center;
+        font-size: 1rem;
+}
+#user-list-container li{
+        display:block;
+        padding: 0 0.5rem 0 0.5rem;
+        height:3rem;
+        background-color:#dfdfdf;
+        border: 1px solid black;
+        line-height: 3rem;
+        text-align: left;
+}
+#user-list-container li:hover{
+        background-color: rgb(58, 58, 58);
+        color:rgb(255, 173, 122);
+}
+#user-list-container a{
+        color:black;
+        text-decoration: none;
+}
+#user-list-container a:hover{
+        cursor: pointer;
+        color: rgb(255, 173, 122);
+}
+
+#home-info{
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 0.5rem;
+        text-align: center;
+        width: 40%;
+        margin: 1rem auto;
+        /* background-color: #dfdfdf; */
+}
+.info-field{
+        padding:0.25rem;
+        font-size: 1.25rem;
+        color: rgb(250, 140, 71);
+}
+.info-head{
+        padding:0.25rem;
+        font-size: 1.25rem;
+        font-family:'Montserrat', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color:rgba(0, 0, 0, 0.692);
+}

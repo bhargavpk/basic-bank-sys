@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+#transfer-container{
+        z-index: 1;
+}
+
+#user-transfer-list{
+        height:24rem;
+        width:40%;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin:auto;
+        text-align: center;
+        font-size: 1rem;
+}
+.user-transfer-list-li{
+        display:block;
+        padding: 0 0.5rem 0 0.5rem;
+        height:3rem;
+        background-color:#dfdfdf;
+        border: 1px solid black;
+        line-height: 3rem;
+        text-align: left;
+}
+
+.user-transfer-list-li:hover{
+        cursor: pointer;
+        background-color: rgb(58, 58, 58);
+        color: white;
+}
+.selected-user{
+        display:block;
+        padding: 0 0.5rem 0 0.5rem;
+        height:3rem;
+        background-color: rgb(58, 58, 58);
+        color: white;
+        line-height: 3rem;
+        text-align: left;
+}
+
+#transfer-query-container{
+        width:100%;
+        display: inline-block;
+        text-align: center;
+        margin: 1rem auto;
+}
+#transfer-query-container input{
+        height: 1.25rem;
+}
+#transfer-query-container button{
+        background-color: green;
+        height:1.5rem;
+        color: white;
+        border: 0;
+        margin: 0 0.25rem 0 0.25rem;
+}
+
+#error-message{
+        text-align: center;
+        color:red;
+        font-family:'Montserrat',Arial, Helvetica, sans-serif;
+}
+
+#balance-info{
+        padding: 0.25rem 0 0.25rem 0;
+        text-align: center;
+        font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+}
