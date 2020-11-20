@@ -13,7 +13,7 @@ export default class Transfers extends Component {
         }
         
         componentDidMount(){
-                fetch('http://localhost:9000/transfers')
+                fetch('/transfers')
                 .then(res => res.json())
                 .then(data => {
                         this.setState({transfers:data.transfers})
