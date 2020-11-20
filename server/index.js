@@ -80,7 +80,7 @@ app.patch('/transfer', async (req,res) => {
         }
 })
 
-app.get('/transfers',async (req,res) => {
+app.get('/transfer_history',async (req,res) => {
         try{
                 const transfers = await Transfer.find({}).sort({createdAt:'desc'})
                 for(const transfer of transfers){

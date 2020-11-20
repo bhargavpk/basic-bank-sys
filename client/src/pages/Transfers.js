@@ -13,7 +13,7 @@ export default class Transfers extends Component {
         }
         
         componentDidMount(){
-                fetch('/transfers')
+                fetch('/transfer_history')
                 .then(res => res.json())
                 .then(data => {
                         this.setState({transfers:data.transfers})
