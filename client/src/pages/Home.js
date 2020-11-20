@@ -18,7 +18,7 @@ export default class Home extends Component {
         }
 
         componentDidMount(){
-                fetch('/users',{
+                fetch('http://localhost:9000/users',{
                         method:'GET'
                 }).then(res => res.json())
                 .then(data => {

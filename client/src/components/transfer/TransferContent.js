@@ -57,7 +57,7 @@ export default class TransferContent extends Component {
                 })
         }
         makeTransfer = e => {
-                fetch('/transfer',{
+                fetch('http://localhost:9000/transfer',{
                         method:'PATCH',
                         headers:{
                                 'Content-type':'application/json'

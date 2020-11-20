@@ -4,7 +4,8 @@ const User = require('./db/user')
 const Transfer = require('./db/transfer')
 
 const express = require('express')
-const cors = require('cors');
+const cors = require('cors')
+const path = require('path')
 
 const app = express()
 
